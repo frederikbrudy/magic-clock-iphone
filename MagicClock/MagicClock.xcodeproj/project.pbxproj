@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F0245D615AF38A600F18DF9 /* LocationPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0245D515AF38A600F18DF9 /* LocationPickerViewController.m */; };
+		1F7E5B1F1597284500F9A595 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7E5B1E1597284500F9A595 /* UIKit.framework */; };
+		1F7E5B211597284500F9A595 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7E5B201597284500F9A595 /* Foundation.framework */; };
+		1F7E5B231597284500F9A595 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7E5B221597284500F9A595 /* CoreGraphics.framework */; };
+		1F7E5B291597284500F9A595 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F7E5B271597284500F9A595 /* InfoPlist.strings */; };
+		1F7E5B2B1597284500F9A595 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7E5B2A1597284500F9A595 /* main.m */; };
+		1F7E5B2F1597284500F9A595 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7E5B2E1597284500F9A595 /* AppDelegate.m */; };
+		1F7E5B321597284500F9A595 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7E5B301597284500F9A595 /* MainStoryboard.storyboard */; };
+		1F7E5B351597284500F9A595 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7E5B341597284500F9A595 /* ViewController.m */; };
+		1F7E5B3C1597287400F9A595 /* bg-noise.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1F7E5B3B1597287400F9A595 /* bg-noise.gif */; };
+		1F7E5B3E1597288000F9A595 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F7E5B3D1597288000F9A595 /* Default.png */; };
+		1F7E5B401597288400F9A595 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F7E5B3F1597288400F9A595 /* Default@2x.png */; };
+		1F7E5B421597289200F9A595 /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F7E5B411597289200F9A595 /* icon57.png */; };
+		1F7E5B441597289600F9A595 /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F7E5B431597289600F9A595 /* icon114.png */; };
+		1F7E5B49159729DB00F9A595 /* MagicClock_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F7E5B48159729DB00F9A595 /* MagicClock_logo.png */; };
+		1F7E5B4B159733F800F9A595 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7E5B4A159733F800F9A595 /* CoreLocation.framework */; };
+		1F90DF4E15B5C5EC00CC2C31 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F90DF4D15B5C5EC00CC2C31 /* background.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F0245D415AF38A600F18DF9 /* LocationPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationPickerViewController.h; sourceTree = "<group>"; };
+		1F0245D515AF38A600F18DF9 /* LocationPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationPickerViewController.m; sourceTree = "<group>"; };
+		1F7E5B1A1597284500F9A595 /* MagicClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7E5B1E1597284500F9A595 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F7E5B201597284500F9A595 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F7E5B221597284500F9A595 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F7E5B261597284500F9A595 /* MagicClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicClock-Info.plist"; sourceTree = "<group>"; };
+		1F7E5B281597284500F9A595 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F7E5B2A1597284500F9A595 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F7E5B2C1597284500F9A595 /* MagicClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagicClock-Prefix.pch"; sourceTree = "<group>"; };
+		1F7E5B2D1597284500F9A595 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F7E5B2E1597284500F9A595 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F7E5B311597284500F9A595 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1F7E5B331597284500F9A595 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F7E5B341597284500F9A595 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F7E5B3B1597287400F9A595 /* bg-noise.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "bg-noise.gif"; path = "MagicClock/bg-noise.gif"; sourceTree = "<group>"; };
+		1F7E5B3D1597288000F9A595 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1F7E5B3F1597288400F9A595 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1F7E5B411597289200F9A595 /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		1F7E5B431597289600F9A595 /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
+		1F7E5B48159729DB00F9A595 /* MagicClock_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MagicClock_logo.png; sourceTree = "<group>"; };
+		1F7E5B4A159733F800F9A595 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1F90DF4D15B5C5EC00CC2C31 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F7E5B171597284500F9A595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7E5B4B159733F800F9A595 /* CoreLocation.framework in Frameworks */,
+				1F7E5B1F1597284500F9A595 /* UIKit.framework in Frameworks */,
+				1F7E5B211597284500F9A595 /* Foundation.framework in Frameworks */,
+				1F7E5B231597284500F9A595 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F7E5B0F1597284400F9A595 = {
+			isa = PBXGroup;
+			children = (
+				1F7E5B45159728A400F9A595 /* Images */,
+				1F7E5B241597284500F9A595 /* MagicClock */,
+				1F7E5B1D1597284500F9A595 /* Frameworks */,
+				1F7E5B1B1597284500F9A595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F7E5B1B1597284500F9A595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F7E5B1A1597284500F9A595 /* MagicClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F7E5B1D1597284500F9A595 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F7E5B4A159733F800F9A595 /* CoreLocation.framework */,
+				1F7E5B1E1597284500F9A595 /* UIKit.framework */,
+				1F7E5B201597284500F9A595 /* Foundation.framework */,
+				1F7E5B221597284500F9A595 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F7E5B241597284500F9A595 /* MagicClock */ = {
+			isa = PBXGroup;
+			children = (
+				1F7E5B2D1597284500F9A595 /* AppDelegate.h */,
+				1F7E5B2E1597284500F9A595 /* AppDelegate.m */,
+				1F7E5B301597284500F9A595 /* MainStoryboard.storyboard */,
+				1F7E5B331597284500F9A595 /* ViewController.h */,
+				1F7E5B341597284500F9A595 /* ViewController.m */,
+				1F0245D415AF38A600F18DF9 /* LocationPickerViewController.h */,
+				1F0245D515AF38A600F18DF9 /* LocationPickerViewController.m */,
+				1F7E5B251597284500F9A595 /* Supporting Files */,
+			);
+			path = MagicClock;
+			sourceTree = "<group>";
+		};
+		1F7E5B251597284500F9A595 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F7E5B261597284500F9A595 /* MagicClock-Info.plist */,
+				1F7E5B271597284500F9A595 /* InfoPlist.strings */,
+				1F7E5B2A1597284500F9A595 /* main.m */,
+				1F7E5B2C1597284500F9A595 /* MagicClock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F7E5B45159728A400F9A595 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1F90DF4D15B5C5EC00CC2C31 /* background.png */,
+				1F7E5B48159729DB00F9A595 /* MagicClock_logo.png */,
+				1F7E5B3B1597287400F9A595 /* bg-noise.gif */,
+				1F7E5B431597289600F9A595 /* icon114.png */,
+				1F7E5B411597289200F9A595 /* icon57.png */,
+				1F7E5B3F1597288400F9A595 /* Default@2x.png */,
+				1F7E5B3D1597288000F9A595 /* Default.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F7E5B191597284500F9A595 /* MagicClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7E5B381597284500F9A595 /* Build configuration list for PBXNativeTarget "MagicClock" */;
+			buildPhases = (
+				1F7E5B161597284500F9A595 /* Sources */,
+				1F7E5B171597284500F9A595 /* Frameworks */,
+				1F7E5B181597284500F9A595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicClock;
+			productName = MagicClock;
+			productReference = 1F7E5B1A1597284500F9A595 /* MagicClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F7E5B111597284400F9A595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1F7E5B141597284400F9A595 /* Build configuration list for PBXProject "MagicClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F7E5B0F1597284400F9A595;
+			productRefGroup = 1F7E5B1B1597284500F9A595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F7E5B191597284500F9A595 /* MagicClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F7E5B181597284500F9A595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7E5B291597284500F9A595 /* InfoPlist.strings in Resources */,
+				1F7E5B321597284500F9A595 /* MainStoryboard.storyboard in Resources */,
+				1F7E5B3C1597287400F9A595 /* bg-noise.gif in Resources */,
+				1F7E5B3E1597288000F9A595 /* Default.png in Resources */,
+				1F7E5B401597288400F9A595 /* Default@2x.png in Resources */,
+				1F7E5B421597289200F9A595 /* icon57.png in Resources */,
+				1F7E5B441597289600F9A595 /* icon114.png in Resources */,
+				1F7E5B49159729DB00F9A595 /* MagicClock_logo.png in Resources */,
+				1F90DF4E15B5C5EC00CC2C31 /* background.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F7E5B161597284500F9A595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7E5B2B1597284500F9A595 /* main.m in Sources */,
+				1F7E5B2F1597284500F9A595 /* AppDelegate.m in Sources */,
+				1F7E5B351597284500F9A595 /* ViewController.m in Sources */,
+				1F0245D615AF38A600F18DF9 /* LocationPickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F7E5B271597284500F9A595 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F7E5B281597284500F9A595 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1F7E5B301597284500F9A595 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F7E5B311597284500F9A595 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F7E5B361597284500F9A595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F7E5B371597284500F9A595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F7E5B391597284500F9A595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicClock/MagicClock-Prefix.pch";
+				INFOPLIST_FILE = "MagicClock/MagicClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F7E5B3A1597284500F9A595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicClock/MagicClock-Prefix.pch";
+				INFOPLIST_FILE = "MagicClock/MagicClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F7E5B141597284400F9A595 /* Build configuration list for PBXProject "MagicClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7E5B361597284500F9A595 /* Debug */,
+				1F7E5B371597284500F9A595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F7E5B381597284500F9A595 /* Build configuration list for PBXNativeTarget "MagicClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7E5B391597284500F9A595 /* Debug */,
+				1F7E5B3A1597284500F9A595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F7E5B111597284400F9A595 /* Project object */;
+}
