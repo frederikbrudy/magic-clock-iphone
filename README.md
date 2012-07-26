@@ -1,7 +1,7 @@
 magic-clock-iphone
 ==================
-
 www.magicclock.de
+
 
 In order for your iPhone app to send location updates to your server and thus to your Magic Clock, you have to change a couple of things in the code.
 
